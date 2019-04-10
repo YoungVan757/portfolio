@@ -12,7 +12,7 @@ body {
 
 .line {
     height: 5px;
-    width: 100%;
+    width: 100vw;
     color: black
 }
 
@@ -25,7 +25,6 @@ body {
     font-family: Helvetica;
     font-size: 370px;
     color: cyan;
-    padding: 0px 30px 30px 30px;
     text-align: center;
 }
 
@@ -190,8 +189,9 @@ a {
 
 .contact__text {
     font-family: Helvetica;
-    font-size: 26px;
+    font-size: 28px;
     text-align: center;
+    font-weight: 800;
 }
 
 @media (max-width: 900px) {
@@ -261,8 +261,9 @@ a {
 
     .heading {
         margin-top: 3%;
-        font-size: 40px;
+        font-size: 36px;
         text-align: center;
+        font-weight: 500;
     }
 
     .img {
