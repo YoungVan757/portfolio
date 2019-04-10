@@ -1,7 +1,7 @@
 body {
     margin: 0;
     overflow-x: hidden;
-    background-color: #FF1493;
+    background-color: cyan;
 }
 
 .container {
@@ -18,7 +18,7 @@ body {
     background-image: url('https://github.com/YoungVan757/portfolio/blob/master/img/backyard%20copy.jpeg?raw=true');
     font-family: Helvetica;
     font-size: 370px;
-    color: #FF1493;
+    color: cyan;
 }
 
 .hero__text {
