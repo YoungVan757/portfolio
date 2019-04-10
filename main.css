@@ -166,7 +166,7 @@ body {
         justify-content: space-evenly;
         height: 50vh;
         width: 100vw;
-        font-size: 120px;
+        font-size: 100px;
         text-align: center;
     }
 
@@ -176,7 +176,7 @@ body {
 
     .heading {
         margin-top: 3%;
-        font-size: 36px;
+        font-size: 42px;
         text-align: center;
     }
 
