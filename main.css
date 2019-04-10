@@ -19,6 +19,7 @@ body {
     font-family: Helvetica;
     font-size: 370px;
     color: cyan;
+    padding: 0px 30px 30px 30px;
 }
 
 .hero__text {
