@@ -171,8 +171,16 @@ body {
     }
 
     .heading {
-        font-size: 62px;
+        font-size: 44px;
         text-align: center;
+    }
+
+    .images__heading {
+        font-size: 22px;
+    }
+
+    .link {
+        font-size: 22px;
     }
 
     .airbnb__original {
