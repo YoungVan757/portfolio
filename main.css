@@ -2,7 +2,7 @@ body {
     margin: 0;
     overflow-x: hidden;
     background-color: cyan;
-    transition-duration: 5s;
+    transition-duration: 3s;
 }
 
 body:hover{
@@ -31,7 +31,13 @@ body:hover{
     font-size: 340px;
     color: cyan;
     text-align: center;
+    transition-duration: 3s;
 }
+
+.hero:hover {
+    color: deeppink;
+}
+
 
 .hero__text {
     font-size: 30px;
@@ -81,6 +87,13 @@ a {
     color: black;
     padding-top: 15px;
     font-weight: 800;
+    transition-duration: 1s;
+    transition-property: transform;
+    transition-timing-function: ease;
+}
+
+a:hover{
+    transform: rotate(360deg)
 }
 
 .airbnb__original {
@@ -104,8 +117,6 @@ a {
     margin-top: 5%;
     margin-bottom: 5%;
 }
-
-
 
 .welovedaily__original {
     height: 50vh;
@@ -222,7 +233,6 @@ a {
     font-weight: 900;
     text-align: center;
 }
-
 
 @media (max-width: 900px) {
     .hero {
