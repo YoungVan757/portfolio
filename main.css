@@ -26,12 +26,14 @@ body:hover{
     width: 100%;
     background-position: center;
     background-size: cover;
-    background-image: url('https://github.com/YoungVan757/portfolio/blob/master/img/backyard%20copy.jpeg?raw=true');
+    background-image: url('https://github.com/YoungVan757/portfolio/blob/master/img/Optimized-backyard.jpeg?raw=true');
     font-family: Helvetica;
     font-size: 340px;
     color: cyan;
     text-align: center;
     transition-duration: 3s;
+    letter-spacing: 4px;
+    animation: text 3s 1;
 }
 
 .hero:hover {
@@ -42,6 +44,16 @@ body:hover{
 .hero__text {
     font-size: 30px;
     font-weight: 550;
+    letter-spacing: 4px;
+    animation: text 3s 1;
+    margin-top: 10px;
+}
+
+@keyframes text {
+    0% {
+        color: unset;
+        margin-top: -40px;
+    }
 }
 
 .airbnb {
@@ -93,7 +105,7 @@ a {
 }
 
 a:hover{
-    transform: rotate(30deg)
+    font-size: 46px;
 }
 
 .airbnb__original {
