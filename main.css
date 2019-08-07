@@ -54,6 +54,10 @@ body:hover{
         color: unset;
         margin-top: -40px;
     }
+    30% {
+        letter-spacing: 25px;
+        margin-top: -40px;
+    }
 }
 
 .airbnb {
