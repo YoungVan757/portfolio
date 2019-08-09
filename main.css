@@ -111,13 +111,14 @@ a {
     color: black;
     padding-top: 15px;
     font-weight: 800;
-    transition-duration: 1s;
     transition-property: transform;
     transition-timing-function: ease;
+    transition-duration: 3s;
+    animation: text 3s 1;
 }
 
 a:hover{
-    font-size: 46px;
+    letter-spacing: 16px;
 }
 
 .airbnb__original {
