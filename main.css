@@ -31,13 +31,14 @@ body:hover{
     font-size: 340px;
     color: cyan;
     text-align: center;
-    transition-duration: 3s;
     letter-spacing: 4px;
+    transition-duration: 3s;
     animation: text 3s 1;
 }
 
 .hero:hover {
     color: deeppink;
+    letter-spacing: 12px;
 }
 
 
@@ -47,9 +48,14 @@ body:hover{
     letter-spacing: 4px;
     animation: text 3s 1;
     margin-top: 10px;
+    transition-duration: 3s;
+    animation: text 3s 1;
 }
 
-
+.hero__text:hover {
+    color: deeppink;
+    letter-spacing: 12px;
+}
 
 @keyframes text {
     0% {
