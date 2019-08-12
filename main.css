@@ -46,10 +46,9 @@ body:hover{
     font-size: 30px;
     font-weight: 550;
     letter-spacing: 4px;
-    animation: text 7s 1;
     margin-top: 10px;
     transition-duration: 7s;
-    animation: text 7s 1;
+    animation: text 5s 1;
 }
 
 .hero__text:hover {
@@ -114,14 +113,12 @@ a {
     transition-property: transform;
     transition-timing-function: ease;
     transition-duration: 7s;
-    animation: text 7s 1;
 }
 
 a:hover{
     letter-spacing: 16px;
+    color: cyan;
 }
-
-
 
 .airbnb__original {
     height: 50vh;
