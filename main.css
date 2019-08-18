@@ -131,6 +131,10 @@ a:hover{
     margin-bottom: 5%;
 }
 
+.airbnb__original:hover {
+    background-size: contain;
+}
+
 .airbnb__mock {
     height: 50vh;
     width: 100%;
@@ -140,6 +144,10 @@ a:hover{
     border: 5px solid black;
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+.airbnb__mock:hover {
+    background-size: contain;
 }
 
 .welovedaily__original {
@@ -153,6 +161,10 @@ a:hover{
     margin-bottom: 5%;
 }
 
+.welovedaily__original:hover {
+    background-size: contain;
+}
+
 .welovedaily__mock {
     height: 50vh;
     width: 100%;
@@ -162,6 +174,10 @@ a:hover{
     border: 5px solid black;
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+.welovedaily__mock:hover {
+    background-size: contain;
 }
 
 .natgeo__original {
@@ -175,6 +191,10 @@ a:hover{
     margin-bottom: 5%;
 }
 
+.natgeo__original:hover {
+    background-size: contain;
+}
+
 .natgeo__mock {
     height: 50vh;
     width: 100%;
@@ -184,6 +204,10 @@ a:hover{
     border: 5px solid black;
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+.natgeo__mock:hover {
+    background-size: contain;
 }
 
 .sill {
@@ -197,6 +221,10 @@ a:hover{
     margin-bottom: 5%;
 }
 
+.sill:hover {
+    background-size: contain;
+}
+
 .chill {
     height: 50vh;
     width: 100%;
@@ -206,6 +234,10 @@ a:hover{
     border: 5px solid black;
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+.chill:hover {
+    background-size: contain;
 }
 
 .contact {
@@ -229,6 +261,10 @@ a:hover{
     margin: 50px;
 }
 
+.contact__mugshot:hover {
+    background-size: contain;
+}
+
 .tribe__container {
     display: flex;
     flex-direction: column;
@@ -243,6 +279,10 @@ a:hover{
     background-image: url('https://github.com/YoungVan757/portfolio/blob/master/img/Screen%20Shot%202019-07-08%20at%205.51.27%20PM.png?raw=true');
     border: 5px solid black;
     margin: 50px;
+}
+
+.tribe__image:hover {
+    background-size: contain;
 }
 
 .tribe__text--body {
