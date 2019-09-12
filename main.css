@@ -61,7 +61,7 @@ body:hover{
         color: unset;
         margin-top: -40px;
     }
-    30% {
+    50% {
         letter-spacing: 25px;
         margin-top: -40px;
     }
@@ -79,6 +79,19 @@ body:hover{
     margin: 3%;
     color:black;
     text-align: center;
+    transform: scaleX(0);
+    animation: heading 12s reverse infinite;
+}
+
+@keyframes heading {
+    0% {
+        transform-origin: top;
+        transform: scaleY(0);
+    }
+    100% {
+        transform-origin: top;
+        transform: scaleY(1);
+    }
 }
 
 .images {
@@ -300,6 +313,8 @@ a:hover{
     font-weight: 800;
     margin-top: 90px;
 }
+
+
 
 @media (max-width: 900px) {
     .hero {
