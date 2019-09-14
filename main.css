@@ -23,7 +23,7 @@ body:hover{
 
 .hero {
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     background-position: center;
     background-size: cover;
     background-image: url('https://github.com/YoungVan757/portfolio/blob/master/img/Optimized-backyard.jpeg?raw=true');
@@ -32,8 +32,8 @@ body:hover{
     color: cyan;
     text-align: center;
     letter-spacing: 4px;
-    transition-duration: 7s;
-    animation: text 5s 1;
+    transition-duration: 5s;
+    animation: text 3s 1;
 }
 
 .hero:hover {
@@ -284,11 +284,22 @@ a:hover{
     background-image: url('https://github.com/YoungVan757/portfolio/blob/master/img/IMG_6329.JPG?raw=true');
     border: 5px solid black;
     margin: 50px;
+    
 }
 
 .contact__mugshot:hover {
     background-size: contain;
+    animation: rotation 1s 1 both;
 }
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(180deg);
+    }
+  }
 
 .tribe__container {
     display: flex;
