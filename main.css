@@ -79,19 +79,6 @@ body:hover{
     margin: 3%;
     color:black;
     text-align: center;
-    transform: scaleX(0);
-    animation: heading 12s reverse infinite;
-}
-
-@keyframes heading {
-    0% {
-        transform-origin: top;
-        transform: scaleY(0);
-    }
-    100% {
-        transform-origin: top;
-        transform: scaleY(1);
-    }
 }
 
 .images {
@@ -114,6 +101,7 @@ body:hover{
     flex-direction: column;
     width: 47%;
     align-items: center;
+    transition: 0.5s;
 }
 
 a {
@@ -142,10 +130,13 @@ a:hover{
     border: 5px solid black;
     margin-top: 5%;
     margin-bottom: 5%;
+    transition: 0.5s;
 }
 
 .airbnb__original:hover {
-    background-size: contain;
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow:0 25px 40px rgba(0,0,0,.5);
 }
 
 .airbnb__mock {
@@ -157,10 +148,13 @@ a:hover{
     border: 5px solid black;
     margin-top: 5%;
     margin-bottom: 5%;
+    transition: 0.5s;
 }
 
 .airbnb__mock:hover {
-    background-size: contain;
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow:0 25px 40px rgba(0,0,0,.5);
 }
 
 .welovedaily__original {
@@ -172,10 +166,13 @@ a:hover{
     border: 5px solid black;
     margin-top: 5%;
     margin-bottom: 5%;
+    transition: 0.5s;
 }
 
 .welovedaily__original:hover {
-    background-size: contain;
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow:0 25px 40px rgba(0,0,0,.5);
 }
 
 .welovedaily__mock {
@@ -187,10 +184,13 @@ a:hover{
     border: 5px solid black;
     margin-top: 5%;
     margin-bottom: 5%;
+    transition: 0.5s;
 }
 
 .welovedaily__mock:hover {
-    background-size: contain;
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow:0 25px 40px rgba(0,0,0,.5);
 }
 
 .natgeo__original {
@@ -202,10 +202,13 @@ a:hover{
     border: 5px solid black;
     margin-top: 5%;
     margin-bottom: 5%;
+    transition: 0.5s;
 }
 
 .natgeo__original:hover {
-    background-size: contain;
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow:0 25px 40px rgba(0,0,0,.5);
 }
 
 .natgeo__mock {
@@ -217,10 +220,13 @@ a:hover{
     border: 5px solid black;
     margin-top: 5%;
     margin-bottom: 5%;
+    transition: 0.5s;
 }
 
 .natgeo__mock:hover {
-    background-size: contain;
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow:0 25px 40px rgba(0,0,0,.5);
 }
 
 .sill {
@@ -232,10 +238,13 @@ a:hover{
     border: 5px solid black;
     margin-top: 5%;
     margin-bottom: 5%;
+    transition: 0.5s;
 }
 
 .sill:hover {
-    background-size: contain;
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow:0 25px 40px rgba(0,0,0,.5);
 }
 
 .chill {
@@ -247,10 +256,13 @@ a:hover{
     border: 5px solid black;
     margin-top: 5%;
     margin-bottom: 5%;
+    transition: 0.5s;
 }
 
 .chill:hover {
-    background-size: contain;
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow:0 25px 40px rgba(0,0,0,.5);
 }
 
 .contact {
@@ -292,10 +304,13 @@ a:hover{
     background-image: url('https://github.com/YoungVan757/portfolio/blob/master/img/Screen%20Shot%202019-07-08%20at%205.51.27%20PM.png?raw=true');
     border: 5px solid black;
     margin: 50px;
+    transition: 0.5s;
 }
 
 .tribe__image:hover {
-    background-size: contain;
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow:0 25px 40px rgba(0,0,0,.5);
 }
 
 .tribe__text--body {
