@@ -2,7 +2,7 @@ body {
     margin: 0;
     overflow-x: hidden;
     background-color: cyan;
-    transition-duration:5s;
+    transition-duration: 1s;
 }
 
 body:hover{
@@ -77,7 +77,7 @@ body:hover{
     font-size: 90px;
     font-family: Helvetica;
     margin: 3%;
-    color:black;
+    color:cyan;
     text-align: center;
 }
 
