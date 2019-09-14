@@ -33,7 +33,7 @@ body:hover{
     text-align: center;
     letter-spacing: 4px;
     transition-duration: 7s;
-    animation: text 7s 1;
+    animation: text 5s 1;
 }
 
 .hero:hover {
@@ -48,7 +48,7 @@ body:hover{
     letter-spacing: 4px;
     margin-top: 10px;
     transition-duration: 7s;
-    animation: text 5s 1;
+    animation: text 3s 1;
 }
 
 .hero__text:hover {
