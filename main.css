@@ -2,7 +2,7 @@ body {
     margin: 0;
     overflow-x: hidden;
     background-color: cyan;
-    transition-duration: 1s;
+    transition-duration: 1.5s;
 }
 
 body:hover{
@@ -32,7 +32,7 @@ body:hover{
     color: cyan;
     text-align: center;
     letter-spacing: 4px;
-    transition-duration: 5s;
+    transition-duration: 3s;
     animation: text 3s 1;
 }
 
@@ -47,7 +47,7 @@ body:hover{
     font-weight: 550;
     letter-spacing: 4px;
     margin-top: 10px;
-    transition-duration: 7s;
+    transition-duration: 3s;
     animation: text 3s 1;
 }
 
