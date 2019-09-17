@@ -83,7 +83,8 @@ span {
 .heading {
     font-size: 90px;
     font-family: Helvetica;
-    margin: 3%;
+    margin-top: 3%;
+    margin-bottom: none;
     color:cyan;
     text-align: center;
 }
@@ -114,7 +115,6 @@ span {
 a {
     display: flex;
     font-family: Helvetica;
-    font-size: 28px;
     color: cyan;
     padding-top: 15px;
     font-weight: 800;
@@ -226,6 +226,7 @@ a:hover{
 }
 
 .contact__link {
+    font-size: 86px;
     border: none;
     height: 5%;
 }
@@ -244,7 +245,6 @@ a:hover{
 }
 
 .contact__mugshot:hover {
-    background-size: contain;
     animation: rotation 1s 1 both;
 }
 
@@ -425,6 +425,4 @@ a:hover{
         height: 260px;
     }
 
-    /* .contact {
-    } */
 }
