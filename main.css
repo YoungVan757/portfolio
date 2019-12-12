@@ -1,3 +1,8 @@
+:root {
+    --base: #00ffff;
+    --spacing: 10px;
+    }
+
 body {
     margin: 0;
     overflow-x: hidden;
@@ -85,7 +90,8 @@ span {
     font-family: Helvetica;
     margin-top: 3%;
     margin-bottom: none;
-    color:cyan;
+    color: var(--base);
+    letter-spacing: var(--spacing);
     text-align: center;
 }
 

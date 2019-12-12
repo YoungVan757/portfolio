@@ -6,7 +6,6 @@
     <title>Van's Portfolio</title>
     <link
       rel="stylesheet"
-      href="//fonts.googleapis.com/css?family=font1|font2|etc"
       type="text/css"
     />
     <link rel="stylesheet" href="main.css" type="text/css" />
@@ -19,6 +18,16 @@
           web developer / tetris
           master
         </div>
+      </div>
+
+      <div>
+
+        <span for="spacing">Spacing:</span>
+        <input type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+
+        <span for="base">font color:</span>
+        <input type="color" name="base" value="#00ffff">
+
       </div>
 
       <div class="airbnb">
@@ -102,6 +111,43 @@
         </div>
         
       </div>
+
+
     </div>
+
+    <style>
+    
+    :root {
+    --base: #00ffff;
+    --spacing: 10px;
+    }
+
+    .heading {
+    font-size: 90px;
+    font-family: Helvetica;
+    margin-top: 3%;
+    margin-bottom: none;
+    color: var(--base);
+    letter-spacing: var(--spacing);
+    text-align: center;
+}
+    
+    </style>
+     
+    <script>
+    
+    const inputs = document.querySelectorAll('input')
+    
+    function handleUpdate() {
+      const suffix = this.dataset.sizing || '';
+      document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
+    }
+
+    inputs.forEach(input => input.addEventListener('change', handleUpdate));
+    inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
+
+    </script>
+
   </body>
 </html>
+ 
